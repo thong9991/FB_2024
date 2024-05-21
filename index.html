@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>E02</title>
+    </head>
+    <body>
+        <h1>Mẫu nhập thông tin sinh viên</h1>
+        <form>
+            <fieldset>
+                <legend>Thông tin cơ bản</legend>
+                <label for="fullName">Họ và tên</label>
+                <input type="text" id="fullName" class="input-field" />
+                <br />
+                <label for="birthdate">Ngày sinh</label>
+                <input type="date" id="birthdate" class="input-field" /> <br />
+                <label>Giới tính</label> <br />
+                <input
+                    type="radio"
+                    id="gender-male"
+                    name="gender"
+                    class="input-field"
+                />
+                <label for="gender-male">Nam</label>
+                <input
+                    type="radio"
+                    id="gender-female"
+                    name="gender"
+                    class="input-field"
+                />
+                <label for="gender-female">Nữ</label>
+                <input
+                    type="radio"
+                    id="gender-other"
+                    name="gender"
+                    class="input-field"
+                />
+                <label for="gender-other">Khác</label> <br />
+                <label>Tổ hợp xét tuyển</label> <br />
+                <input type="checkbox" id="subject-math" class="input-field" />
+                <label for="subject-math">Toán</label> <br />
+                <input
+                    type="checkbox"
+                    id="subject-physics"
+                    class="input-field"
+                />
+                <label for="subject-physics">Lý</label> <br />
+                <input
+                    type="checkbox"
+                    id="subject-chemistry"
+                    class="input-field"
+                />
+                <label for="subject-chemistry">Hóa</label> <br />
+                <input
+                    type="checkbox"
+                    id="subject-english"
+                    class="input-field"
+                />
+                <label for="subject-english">Anh</label> <br />
+            </fieldset>
+        </form>
+        <br />
+        <form action="">
+            <fieldset>
+                <legend>Thông tin liên lạc</legend>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input-field" /> <br />
+                <label for="phone">Số điện thoại</label>
+                <input type="text" id="phone" class="input-field" />
+            </fieldset>
+        </form>
+        <button>Gửi</button>
+    </body>
+</html>
